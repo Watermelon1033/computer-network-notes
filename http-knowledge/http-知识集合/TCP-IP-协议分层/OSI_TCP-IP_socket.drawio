@@ -1,0 +1,94 @@
+<mxfile host="" modified="2020-06-26T11:11:29.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.46.1 Chrome/78.0.3904.130 Electron/7.3.1 Safari/537.36" etag="7tCm1_bO-iYqaZkH2yEU" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="2013" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px&quot; face=&quot;Verdana&quot;&gt;Application&amp;nbsp; &amp;nbsp;应用层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=#b85450;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="120" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px&quot; face=&quot;Verdana&quot;&gt;Presentation&amp;nbsp; &amp;nbsp;表示层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=none;fontColor=#ffffff;gradientColor=none;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="220" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px&quot; face=&quot;Verdana&quot;&gt;Network&amp;nbsp; &amp;nbsp;网络层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=none;fontColor=#ffffff;gradientColor=none;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="490" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 16px&quot; face=&quot;Verdana&quot;&gt;Transport&amp;nbsp; &amp;nbsp;传输层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=none;fontColor=#ffffff;gradientColor=none;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-631" y="400" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot; style=&quot;font-size: 17px&quot;&gt;Session&amp;nbsp; &amp;nbsp;会话层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=none;fontColor=#ffffff;gradientColor=none;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="310" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;Physical&amp;nbsp; &amp;nbsp;物理层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=none;fontColor=#ffffff;gradientColor=none;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-630" y="670" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot; style=&quot;font-size: 16px&quot;&gt;Data Link&amp;nbsp; &amp;nbsp;数据链路层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;strokeColor=none;fontColor=#ffffff;gradientColor=none;gradientDirection=north;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-631" y="580" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;Network Process to Application 网络流程到应用&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-740" y="170" width="320" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;Data representation and Encryption 数据表示与加密&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-755" y="270" width="350" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;Interhost communication 主机间通讯&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-705" y="360" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;End-to-End connections and Reliability 端到端连接和可靠性&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-786" y="450" width="410" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;Path Determination and IP (Logical addressing) 路径确定和 IP (逻辑寻址)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-825" y="540" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;MAC and LLC (Physical addressing) MAC 和 LLC (物理寻址)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-781" y="630" width="400" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#ffffff&quot; style=&quot;line-height: 160%&quot;&gt;Media, Signal and Binary Transmission 媒体, 信号和二进制传输&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Menlo;" parent="1" vertex="1">
+                    <mxGeometry x="-780" y="730" width="420" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font face=&quot;Menlo&quot; style=&quot;font-size: 16px&quot; color=&quot;#ffffff&quot;&gt;Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-735" y="120" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;font style=&quot;font-size: 22px&quot; face=&quot;Menlo&quot;&gt;Data&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="-725" y="90" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;font face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;Layer&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="-570" y="90" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;Bits&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-735" y="670" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;Frames&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-736" y="580" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;Packets&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-735" y="490" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;Segments&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-736" y="400" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font face=&quot;Menlo&quot; style=&quot;font-size: 16px&quot; color=&quot;#ffffff&quot;&gt;Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-735" y="310" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font face=&quot;Menlo&quot; style=&quot;font-size: 16px&quot; color=&quot;#ffffff&quot;&gt;Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B5747F;gradientColor=none;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="-735" y="220" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 28px&quot; face=&quot;Menlo&quot;&gt;OSI Model&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="-690" y="40" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#000000&quot; face=&quot;Menlo&quot; style=&quot;font-size: 22px ; line-height: 160%&quot;&gt;Application&lt;br&gt;应用层&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;align=center;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="-338" y="120" width="320" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 22px&quot; face=&quot;Menlo&quot;&gt;Transport 传输层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;align=center;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="-338" y="400" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;font color=&quot;#000000&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;Internet (层)&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;align=center;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="-338" y="490" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font color=&quot;#000000&quot; face=&quot;Menlo&quot;&gt;&lt;span style=&quot;font-size: 22px ; line-height: 160%&quot;&gt;Network Interface&lt;br&gt;网络接口层&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;align=center;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="-338" y="580" width="320" height="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
